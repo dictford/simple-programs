@@ -5,6 +5,7 @@ while 1:
     p2=input('Enter player2\'s name :')
     while 1:
         #Obtaining whether rock/paper/sccissor
+        #Here, 'r' stands for rock; 'p' stands for paper and 's' stands for sccissor
         choice1=input('What\'s your choice, %s? (r/p/s)'%p1)
         choice2=input('What\'s your choice, %s? (r/p/s)'%p2)
         if choice1!=choice2:
